@@ -23,3 +23,7 @@ iron:router
 bootswatch:paper
 jquery
 fortawesome:fontawesome
+accounts-base
+accounts-google
+ian:accounts-ui-bootstrap-3
+service-configuration
