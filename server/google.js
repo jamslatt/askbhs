@@ -7,3 +7,10 @@ ServiceConfiguration.configurations.insert({
     loginStyle: "popup",
     secret: "BSogt3iR4kpY-XzFT9PnBIBD"
 });
+
+// Extended Fields
+Accounts.onCreateUser(function(options, user) {
+    user.profile = options.profile || {};
+    user.profile.year = options.year;
+    return user;
+});
